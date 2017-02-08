@@ -1,0 +1,7 @@
+# Timepoints represented in reference_atlas.tsv
+1	preglobular
+2	globular
+3	heart
+4	linear cotyledon
+5	bent cotyledon
+6	mature green

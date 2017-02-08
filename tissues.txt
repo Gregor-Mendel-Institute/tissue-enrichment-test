@@ -1,0 +1,9 @@
+# Tissues represented in reference_atlas.tsv
+EP	embryo proper
+SUS	suspensor
+MCE	micropylar endosperm
+PEN	peripheral endosperm
+CZE	chalazal endosperm
+CZSC	chalazal seed coat
+GSC	general seed coat
+WS	whole seed//exclude
