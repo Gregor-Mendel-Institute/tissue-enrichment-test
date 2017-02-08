@@ -17,7 +17,7 @@ If this step causes errors for you, either set the variable 'make_heatmaps' in '
 
 To download this repository, run this command in your desired destination folder:
 ```shell
-git clone https://github.com/maschon0/tissue-enrichment-test.git
+git clone https://github.com/Gregor-Mendel-Institute/tissue-enrichment-test.git
 ```
 
 After cloning the repository, run these commands to make sure everything is set up properly:
