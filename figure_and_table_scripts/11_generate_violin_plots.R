@@ -39,7 +39,9 @@ endo_mat=x[,2]
 names(endo_mat)=x[,1]
 
 
-contam_ratio=log2((rowSums(data_table[,18:19],na.rm = T)+1)/(rowSums(data_table[,c(15:17)],na.rm = T)+1))
+#contam_ratio=log2((rowSums(data_table[,18:19],na.rm = T)+1)/(rowSums(data_table[,c(15:17)],na.rm = T)+1))
+contam_ratio=log2((rowSums(data_table[,c("Chalazal.Seed.Coat","General.Seed.Coat")],na.rm = T)+1)/(rowSums(data_table[,c("Micropylar.Endosperm","Peripheral.Endosperm","Chalazal.Endosperm")],na.rm = T)+1))
+
 names(contam_ratio)=data_table[,1]
 smpls=which(data_table$Tissue.Type %in% c('endosperm','whole seed','seed coat','general seed coat','chalazal seed coat','peripheral endosperm','chalazal endosperm','micropylar endosperm') &
   data_table$Corresponding.Developmental.Stage=='linear cotyledon')
